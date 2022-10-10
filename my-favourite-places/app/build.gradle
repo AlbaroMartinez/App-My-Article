@@ -48,4 +48,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.5'
 //        compile "com.google.firebase:firebase-auth:9.0.2"
     implementation 'com.google.code.gson:gson:2.8.7'
+
+//    classpath 'com.google.gms:google-services:4.3.13'
+    apply plugin: 'com.google.gms.google-services'
+    implementation 'com.google.firebase:firebase-messaging:23.0.6'
+
 }
